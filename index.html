@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <img src="img/background.jpg" alt="leaves-background" class="background">
+        <div class="logo-banner">
+            <img src="img/odin-lined.png" alt="odin-logo" class="logo-image">
+            <h1>ODIN</h1>
+        </div>
+        <p class="img-credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div class="content">
+        <div class="description">
+            <h3 class="description-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</h3>
+        </div>
+        <div class="form">
+            <h3 class="form-heading">Let's do this!</h3>
+            <form action="/index.html">
+                <ul>
+                    <li>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </li>
+                    <li>
+                        <label for="last-name">LAST NAME</label>
+                        <input class="focus" type="text" id="last-name" name="last-name">
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="phone-num">PHONE NUMBER</label>
+                        <input type="tel" name="phone-num" id="phone-num">
+                    </li>
+                    <li>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </li>
+                    <li>
+                        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-pwd" id="confirm-pwd">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="account">
+            <button type="submit">Create Account</button>
+            <p class="existing-account">Already have an account? <a href="index.html" class="login">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>

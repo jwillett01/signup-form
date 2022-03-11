@@ -1,0 +1,154 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+@font-face {
+    font-family: norseBold;
+    src: url("fonts/Norse-Bold.otf");
+}
+
+h1 {
+    font-family: norseBold;
+    font-size: 90px;
+    color: white;
+}
+
+.background {
+    width: 36vw;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo-banner {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 36vw;
+    min-width: 36vw;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.img-credit {
+    position: absolute;
+    bottom: 8px;
+    width: 33vw;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.description,
+.account {
+    background-color: #FAFAFA;
+}
+
+form {
+    display: flex;
+}
+
+.description-text {
+    margin: 150px 150px 50px 50px;
+}
+
+.form-heading {
+    margin-left: 50px;
+}
+
+ul {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 330px 330px;
+    grid-template-rows: 30px 30px 30px;
+    list-style: none;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+li, input {
+    display: block;
+}
+
+label {
+    font-size: 10px;
+}
+
+input {
+    width: 280px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.focus {
+    border-color: blue;
+    box-shadow: 3px 3px whitesmoke;
+}
+
+button {
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #596D48;
+    font-size: 18px;
+}
+
+.existing-account {
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.login {
+    color: #596D48;
+    font-weight: bold;
+}
+
+.account {
+    height: -webkit-fill-available;
+}
